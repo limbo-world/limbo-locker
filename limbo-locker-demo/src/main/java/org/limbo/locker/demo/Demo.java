@@ -29,7 +29,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication
 public class Demo {
 
-
     public static void main(String[] args) {
         new SpringApplicationBuilder()
                 .web(WebApplicationType.SERVLET)
@@ -37,6 +36,5 @@ public class Demo {
                 .build()
                 .run(args);
     }
-
 
 }

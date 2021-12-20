@@ -3,8 +3,8 @@ server:
 
 spring:
   redis:
-    password: 159000
-    host: 10.219.153.31
+    password: 123456
+    host: 127.0.0.1
     lettuce:
       pool:
         max-idle: 10
