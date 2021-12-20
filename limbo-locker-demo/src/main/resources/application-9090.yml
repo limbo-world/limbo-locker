@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+  redis:
+    password: 159000
+    host: 10.219.153.31
+    lettuce:
+      pool:
+        max-idle: 10
+        min-idle: 1
+        max-active: 20
+        max-wait: 3000
